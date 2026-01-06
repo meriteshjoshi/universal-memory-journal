@@ -1,0 +1,1060 @@
+00:00 I used to start my Claude Code
+projects completely wrong.
+00:04 I typed Claude into my terminal
+and just start freestyle prompting
+00:07 with no planning, no setup,
+and no system for building.
+00:11 It was like trying to build
+a house without blueprints.
+00:14 I eventually got something
+built, but it was messy,
+00:16 inefficient, and full of problems.
+00:18 I could have avoided.
+00:19 But after building dozens of projects
+with Claude Code over the past year,
+00:23 I've discovered a simple three part
+system that makes every project
+00:27 10 x easier to build from day one.
+00:29 And in this video, I'm gonna save you
+months of frustration and wasted time
+00:34 by sharing the exact system that I use
+to start every new Claude Code project.
+00:39 I call it the PSB system
+for plan, setup, and build.
+00:43 Phase one is plan.
+00:45 This is where you set up
+your project for success.
+00:47 Before you write a single line of code.
+00:50 We'll cover the two critical
+questions I asked myself before
+00:53 building and creating a project
+spec doc that combines both product
+00:57 requirements and engineering design.
+00:59 So Claude can build exactly what
+you want the way that you want it.
+01:03 Phase two is set up.
+01:04 This is where you configure
+Claude code with everything that
+01:07 it needs to build effectively.
+01:09 We will cover my seven step set up
+checklist for Claude Code from setting
+01:12 up a GitHub repo and creating your
+claude.md file to advanced features
+01:17 like plugins, MCPs, and custom commands.
+01:20 Phase three is build.
+01:22 This is where you'll start writing code
+first by building your MVP and then
+01:26 the rest of your project milestones.
+01:28 We'll cover the three development
+workflows that I use for every
+01:31 project, the general workflow
+for single features, issue-based
+01:35 development for staying organized and
+multi-agent development, for working
+01:39 on multiple features simultaneously.
+01:41 Plus, I'll share the most important
+tips that I've learned to keep
+01:44 your building process with thought
+code productive and efficient.
+01:48 So whether you're starting your first
+Claude Code project, or you already
+01:51 use Claude Code every day, I guarantee
+that you're gonna learn something from
+01:54 this video that's gonna help you build
+faster, that smarter with Claude Code,
+01:59 even if you don't use a whole system.
+02:00 And just apply a handful of
+these tips that I'm gonna share.
+02:04 But before we dive in, I'm Avthar and
+I teach people about the best AI coding
+02:08 tools and how to get the most out of them,
+no matter your skill or experience level.
+02:13 So if trying to level up with AI
+coding tools, maybe it's for your job
+02:16 or for your business, or maybe even
+a side project, please subscribe to
+02:20 the channel and turn on notifications
+for more videos about AI coding.
+02:24 Alright, with that out the way,
+let's get into phase one of
+02:28 starting a new Claude Code project.
+02:29 And that's planning.
+02:31 We're gonna cover the two most
+important questions to ask yourself.
+02:34 How to create a project spec doc that
+captures both product and engineering
+02:38 requirements and how to use AI to help
+you plan at every step of the way.
+02:42 And look, I get it.
+02:44 Planning sounds boring.
+02:45 You wanna start coding.
+02:46 But trust me on this one, spending
+just 15 minutes, planning a project
+02:50 upfront will save you hours, sometimes
+even days of frustration down the line.
+02:55 Now before I even open Claude
+Code, I do a brainstorm of what
+02:58 I want to achieve with a project.
+02:60 Specifically.
+03:01 I ask myself two questions and
+note down the answers using a
+03:04 pen and paper or a Google Doc.
+03:06 The first question that I asked
+myself before building is, what
+03:10 are you actually trying to do?
+03:11 Or what is the goal of your project?
+03:14 Are you trying to learn a new technology?
+03:16 Are you trying to validate
+an idea with customers?
+03:18 Are you building an alpha version
+of a product or feature, or
+03:21 are you just prototyping to
+see if something is possible?
+03:24 Getting clear about what you're
+actually trying to do changes everything
+03:28 about how you approach the project.
+03:30 It tells you what's important to
+build versus what you can skip.
+03:34 For example, if you're just trying
+to prototype to see if a feature is a
+03:37 good idea, you can just focus on the
+core functionality for that feature.
+03:41 You don't need to worry about
+production ready code or edge cases.
+03:44 You can move fast and break things, but
+if you're building something you wanna
+03:48 ship to real users, then you need to
+think about things like security, error,
+03:52 handling, edge cases, and all the details
+that make your product feel polished.
+03:57 A key thing to keep in mind
+when you're planning is that
+03:59 the clearer you are, the better.
+04:01 Claude will understand what you're
+trying to achieve and build accordingly.
+04:05 The second question I ask myself in the
+plan phase is, what are the milestones
+04:09 of functionality that you want?
+04:11 This is where you can start breaking
+down your project into clear phases.
+04:15 What does version one look like?
+04:16 Maybe it just focuses on one core feature.
+04:19 What are you okay with leaving
+out or saving for future versions?
+04:22 then you can apply that same thinking to
+version two, version three, and so on.
+04:27 For most projects, I like to think
+in terms of an MVP or minimum
+04:31 viable product, and then one or
+two versions of improvements.
+04:34 The MVP is an absolute minimum.
+04:36 You need to validate your idea
+or prove that the concept works.
+04:40 And then in future versions you
+can add things like scaffolding,
+04:43 polish or optimizations.
+04:45 Next up in phase one is
+using AI to help you plan.
+04:49 Once you have your brainstorm, this
+is where you can use AI to help you
+04:52 flesh out the plan for your project.
+04:54 And here's my pro tip for
+using any AI to help you plan,
+04:58 tell it to ask you questions.
+04:60 For example, when I start a new project,
+I give Claude my brainstorm in a
+05:04 markdown file and ask, "Hey Claude,
+I wanna build this project. What are
+05:08 the three most important questions I
+need to answer in order to build an
+05:11 MVP of this successfully?" Claude will
+then ask me clarifying questions about
+05:15 the brainstorm to help me spot things
+that I haven't fully thought through,
+05:19 or decisions that need to be made.
+05:21 And by answering these questions,
+I get way more clarity about what
+05:24 I'm actually trying to build.
+05:26 The cool thing is that you can repeat
+this trick of getting the AI to
+05:29 ask you questions for any aspect of
+the planning or building process,
+05:34 whether it's figuring out product
+requirements or technical tool choices,
+05:37 or just debugging an gnarly issue.
+05:40 The other tool that I use for planning
+is just having a conversation with a
+05:44 Claude assistant or ChatGPT, using voice
+mode . I literally just talk through
+05:48 my project idea out loud, talking
+about the different features that I
+05:52 want the user flows, and then I ask it
+to summarize our conversation and put
+05:56 it in a markdown file that I can use
+as a starting point with Claude Code.
+05:60 Having a voice conversation with
+AI is super useful in the planning
+06:03 process ' cause that's when your ideas
+are still fuzzy and sometimes it's
+06:07 hard to write things down because
+you don't even know what you think.
+06:10 And so saying it out loud helps you
+process your ideas a lot more easily.
+06:14 Alright, so now we get to the main
+deliverable of the planning phase,
+06:18 which is your project spec doc.
+06:19 The project spec has two main
+parts, the product requirements
+06:23 and the engineering requirements.
+06:25 It contains the essential product
+ideas and engineering design
+06:28 information to help Claude Code
+successfully build your project.
+06:33 I'll note that how detailed your project
+spec doc needs to be depends on your
+06:36 project goal and your milestones.
+06:38 This is why it's important
+to get clear on those first.
+06:41 Now if you worked at a software company
+before, you might be familiar with a
+06:44 product requirements DOC or PRD and
+Engineering Design Docs, or EDDs, the
+06:50 project Spec Doc is basically a much
+more lightweight version of that, but
+06:54 tailored for building with Claude Code.
+06:56 Let's dive into the first part
+of your project Spec doc, which
+06:59 is the product requirements.
+07:00 The product requirements are about
+what you're building and why.
+07:04 It answers three key questions.
+07:06 Who is a product for?
+07:07 What problems does it solve,
+and what should the product do?
+07:10 This is where you exercise
+your creativity, your insight,
+07:13 and your product sense.
+07:15 You need to think about who
+you're building for and what
+07:17 problems you wanna solve for them.
+07:19 Sometimes that person is you, so
+take some time to think about it.
+07:22 And here's what I've learned
+about product requirements.
+07:25 You'll likely need to spend some
+time outlining exactly what you
+07:28 want in terms of how the problems
+are solved from a user perspective.
+07:32 ' cause if you're not specific about
+the user interactions that you want,
+07:35 Claude might make assumptions and
+you might not like what you get.
+07:38 For example, if you're building
+a journaling app, don't just say
+07:42 users can create journal entries.
+07:44 Be specific.
+07:45 What does creating an entry look like?
+07:47 Do they start with a blank page
+or do they start with prompts?
+07:49 Can they add photos?
+07:51 Can they edit past entries?
+07:53 What does a workflow look like?
+07:55 The more specific you are about the
+user experience that you want, the
+07:58 better Claude will be at building it.
+08:00 Another key thing to keep in mind
+for the product requirements is don't
+08:04 try to build everything at once.
+08:06 Break your project down into
+clear milestones for capabilities.
+08:10 This is where the milestone question we
+asked ourselves earlier comes in handy.
+08:14 What are the most important things
+to build first and define what done
+08:18 looks like for each milestone so
+you have a clear target to hit.
+08:21 The final pro tip around product
+requirements is that if you're
+08:24 not sure about your product
+requirements, that's totally okay.
+08:28 Build version one first, and then based
+on what you like or dislike about it, you
+08:32 can create a plan for version two, iterate
+on your product requirements as you build.
+08:37 Alright.
+08:38 All right.
+08:38 The second part of your project
+spec is the technical requirements
+08:41 or engineering design doc.
+08:43 While the product requirements cover
+what you're building, the engineering
+08:46 design is about how you're building it.
+08:49 The first and most important part
+of your engineering requirements
+08:52 is choosing your tech stack.
+08:54 Now, depending on the type of product
+that you're building, you'll need to
+08:57 decide on things like what programming
+language you're going to use, your
+09:01 preferred front-end framework.
+09:02 Backend framework, things like your
+database choice, your hosting and
+09:06 info provider, as well as any other
+details about the components that
+09:10 you'd like to use in your project.
+09:12 And here's why that
+matters for Claude Code.
+09:14 If you don't specify your stack, Claude
+might just inject random technology
+09:18 choices that you might not want.
+09:20 So I always start by being rarely
+explicit about my stack preferences.
+09:23 If you are looking for inspiration,
+here's my preferred stack for
+09:27 building web applications.
+09:28 For the front end, I use Vercel for
+Hosting Next JS as a framework, tailwind
+09:33 for styling and Shadcn for components.
+09:36 For the backend and database,
+I like MongoDB or Supabase
+09:40 depending on the project.
+09:41 For authentication and login, I use Clerk.
+09:44 And for payments, you
+can't go wrong with Stripe.
+09:46 For email, I've been enjoying
+Resend recently and for backend
+09:50 hosting if I need it I use Digital
+Ocean . For object storage.
+09:54 My go-to is Cloudflare R2.
+09:56 And for AI features I tend to use
+Anthropic models, but for images I
+10:00 use nano banana from Google Gemini.
+10:03 Now if you prefer different
+technologies, that's totally fine.
+10:06 You don't have to use this stack.
+10:07 It's just a suggestion.
+10:09 But the main thing is that you should be
+clear about what you want Claude to use.
+10:13 But what if you're not sure about what
+to use or even what components of the
+10:17 stack you need in the first place?
+10:19 The answer here is just ask Claude
+. Describe your requirements and ask Claude
+10:24 code to create a research report with
+options and recommended choices for you.
+10:28 Claude Code has web search built
+in so it can look up the latest
+10:31 docs, tools, and frameworks and
+give you informed recommendations.
+10:35 The second part of your technical
+requirements is defining
+10:38 your technical architecture.
+10:40 This includes things like your system
+design, overview, the key components of
+10:44 your app and how they interact, as well
+as your database schema, your API design,
+10:49 if you have one, and other technical
+details that matter for your project.
+10:53 Now I usually delegate most of this
+to Claude, but if you're using Claude
+10:56 Code at work or on a team, you likely
+wanna be more prescriptive with the
+10:60 implementation details in order to follow
+the best practices that your team uses.
+11:05 For example, if you're working at a
+company that has specific patterns
+11:08 for system design, you might wanna
+document those in your engineering
+11:11 design so that Claude follows them.
+11:13 And part of this technical architecture
+step often involves actually provisioning
+11:17 the infrastructure that you need.
+11:19 So once you've decided what infra you
+want to use, go ahead and provision it.
+11:23 Create your database.
+11:24 Set up your hosting, create your API keys.
+11:27 Do it all now so that Claude can
+move fast when you start building.
+11:30 So that wraps up the planning phase.
+11:32 you're now ready to move to phase
+two, which is Claude Code setup.
+11:36 Alright.
+11:37 Phase two is a setup phase.
+11:39 This is where we're gonna cover the
+seven step checklist that I use to set up
+11:42 Claude Code for successful development.
+11:45 And by the end of this section, your
+Claude Code is gonna feel like a perfectly
+11:49 tuned instrument with all the shortcuts,
+automations, and context that it needs
+11:53 to build your project effectively.
+11:55 Heads up that you don't need to use
+all the things I recommend in the setup
+11:58 section to improve your existing workflow.
+12:01 Just pick and choose the things that
+you feel is relevant to your project.
+12:04 Step one in the setup checklist is
+set up a GitHub repo for your project.
+12:09 Now you can just build locally
+with Git, but I strongly recommend
+12:13 setting up a GitHub repo from
+the start for a few key reasons.
+12:17 First setting up a GitHub repo enables
+you to use Claude Code on the web and
+12:22 mobile so you can code from anywhere.
+12:24 Second, you get access to the GitHub
+CLI and the Claude Code gitHub Action.
+12:28 This is super useful for reading
+project and branch history
+12:32 and creating pull requests.
+12:33 And the GitHub action is useful
+for automated PR reviews and
+12:37 mentioning Claude to handle issues.
+12:39 Third.
+12:40 Many infrastructure providers like
+Vercel enable you to deploy just by
+12:44 connecting a GitHub repo and in the
+case of Vercel It also supports deploy
+12:48 previews for each branch of your project.
+12:51 This makes using branches a no
+brainer for developing new features
+12:54 or trying new product directions
+while keeping your main branch stable.
+12:58 Generally, I ask Claude Code to
+use a new branch for each big new
+13:02 feature that it develops, and then
+when it's done, we merge or submit
+13:05 a PR against the main branch.
+13:07 Fourth and finally, a GitHub repo
+enables issue-based development.
+13:11 This helps keep your project super
+organized as it makes GitHub issues
+13:15 the source of truth for things
+like bugs and feature requests.
+13:18 And it also means that you can use
+multiple instances of Claude Code to
+13:22 tackle multiple issues at the same time.
+13:25 We'll cover issue-based development and
+multi-agent development in more depth
+13:30 in the build section later in the video.
+13:32 Step two in the setup checklist is
+creating your environment variable file.
+13:37 To do this first, ask Claude to
+create an example ENV file based on
+13:41 your project spec and tech stack.
+13:43 Then create a copy of that and fill
+in your needed credentials and API
+13:47 keys so that Claude can build with
+them without stopping to ask you.
+13:51 Step three is setting
+up your claude.md file.
+13:54 You can think of your Claude.md
+file as your project's memory.
+13:57 It's always included in context for every
+chat that you have with Claude Code.
+14:02 A big thing to remember about
+your Claudemd file is that it
+14:05 is finite so don't bloat it.
+14:08 You wanna keep it focused on
+the most important information.
+14:11 So what goes inside a Claudemd file?
+14:14 Now, there's no one size fits all
+answer, but in general, you wanna
+14:17 put information about your project
+that Claude absolutely needs to know.
+14:21 Here are some suggestions
+about what to include.
+14:24 First, the project goals and a
+project architecture overview.
+14:28 This gives Claude a big picture, grounding
+of the project and the folder layout.
+14:33 Next is a design style guide
+and user experience guidelines.
+14:36 This keeps your code that is
+generated by Claude, aligned with
+14:40 your project and design goals.
+14:42 Then constraints and policies.
+14:44 This prevents unsafe or forbidden actions.
+14:46 For example, you can tell Claude never to
+push to the main branch directly or always
+14:51 use environment variables for secrets.
+14:54 Then repository etiquette.
+14:55 For example, telling Claude when to use
+things like PRs versus direct merges, how
+15:00 to name branches and other git workflows.
+15:03 You can also put frequently used commands
+like those for building and testing so
+15:07 that Claude can run them without asking.
+15:10 And you can also include testing
+instructions and other rules and
+15:13 constraints that you want Claude
+to follow in your Claude.md file.
+15:17 One of the most impactful ways that
+I've found to keep your Claude.md
+15:21 Concise is to link off to other files.
+15:24 Tell Claude about files that
+have important context in the
+15:27 Claude.md file and tell it to
+reference them for the full picture.
+15:31 For example, you can link off to your
+project spec doc from the plan phase,
+15:35 as well as an Architecture MD file
+versus repeating that information.
+15:39 That way you can give Claude
+important information about your
+15:42 project without unnecessarily
+clogging up the context window.
+15:45 Now finally, don't worry about making
+your Claude.md file perfect on day one.
+15:50 You'll build it up iteratively
+as you work on your project, and
+15:53 we'll cover more about this in the
+build phase later in the video.
+15:57 Step four in the checklist is to
+set up automated documentation.
+16:02 Automated documentation is my term for
+a set of documents that is separate
+16:06 from your Claude.md file that maintains
+context about your project, which
+16:10 Claude can read when it needs to.
+16:12 These are the sort of docs that you link
+off to in your Claude MD . You ask Claude
+16:17 to keep these docs up to date as you work.
+16:19 That way you always have the
+latest context in your sessions.
+16:23 This is incredibly useful for development
+planning or even just refreshing your
+16:27 memory about a project or feature.
+16:29 I have four core documents that
+I set up for every project.
+16:33 Doc.
+Number one is the architecture.md file.
+16:36 Architecture.md documents your
+system design, app structure, and
+16:40 how the major components interact.
+16:42 You wanna keep this updated
+after you add big features.
+16:46 Document number two is a change log md.
+A change log is just a list of things
+16:51 that's change in your project over time.
+16:53 It's common for companies to put
+out change logs whenever they
+16:55 do new releases or at the end
+of every week or every month.
+16:59 This is helpful for Claude Code
+projects because it helps you see
+17:02 what work has been done, and also
+gives Claude an overview of how
+17:05 the project has evolved over time.
+17:07 Doc number three is a project status doc.
+17:10 This doc covers three things.
+17:12 What are the project milestones?
+17:14 What have you already accomplished
+in relation to those milestones and
+17:17 where did you end off last time?
+17:19 The project status file is a personal
+favorite of mine 'cause I tend to work in
+17:23 bursts and sometimes don't touch a project
+for a few days or even a few weeks.
+17:27 And so it's helpful for me and Claude
+to pick back up right where we left off.
+17:32 Doc number four is reference
+docs for key features.
+17:36 These are technically optional
+since you can just use the code
+17:39 base search subagent in Claude Code.
+17:41 But I like building these to get a high
+level overview of a feature so that I can
+17:45 plan how to improve it or fix bugs in it.
+17:48 For example, in an iOS app that I was
+building, I had reference docs for
+17:52 onboarding and push notifications.
+17:54 And in a web app that I was building,
+I had docs about how payments were
+17:58 implemented, about how time zones
+worked in an email reminder feature
+18:02 and other docs documenting rules
+around core product functionalities.
+18:06 Finally, how do you
+keep these docs updated?
+18:09 The answer is to ask Claude to
+automatically update the docs as it
+18:13 works either with an instruction in
+your Claude.md, or using a custom
+18:17 slash command that Claude can
+run after it finishes a feature.
+18:21 This is my personal preference for
+how to do automated documentation.
+18:24 Step number five in the setup checklist
+is to set up plugins for your project.
+18:29 Plugins extend Claude Code with
+specialized commands and workflows that
+18:33 make development faster and easier.
+18:35 A plugin consists of any combination
+of slash commands, sub-agents,
+18:40 MCP servers, hooks, and skills.
+18:43 Plugins enable you to easily take the
+best customizations from other Claude
+18:47 Code users and use them in your own
+projects without recreating them.
+18:52 You can find plugins using one of
+the many plugin marketplaces around
+18:55 and you can manage them using the
+slash plugins command in Claude Code.
+18:60 And if you're looking for inspiration,
+here's some plugins that I
+19:03 recommend using for new projects.
+19:05 First up is the Anthropic
+front-end plugin.
+19:08 This adds specialized skills for front-end
+development, giving you better UIs and
+19:12 avoiding that dreaded purple gradient.
+19:14 Second is the anthropic feature
+dev plugin, which helps streamline
+19:18 the feature development process.
+19:20 And thirdly is the every
+compound engineering plugin.
+19:23 This adds a whole suite of useful
+slash commands and subagents with the
+19:28 goal of making every feature easier
+to develop than the last, helping
+19:32 your project continuously improve.
+19:34 Step six in the setup checklist is setting
+up MCPs or model context protocol servers.
+19:39 MCPs are integrations that connect Claude
+Code to external tools and services.
+19:44 They're incredibly useful because
+they let Claude interact with your
+19:47 database, test your front end, deploy
+to hosting and do all sorts of other
+19:52 things that it couldn't do otherwise.
+19:54 So which MCPs should you
+set up for a new project?
+19:58 This is where your tech stack from
+the plan phase comes in handy.
+20:01 You might not need all of them,
+but try out the MCPs for key
+20:04 parts of your tech stack that you
+think would speed up your work.
+20:07 For database work, I usually set up the
+MCP for whichever database I'm using.
+20:12 For example, the MongoDB,
+MCP or the Supabase, MCP.
+20:16 This is especially important when
+you're rapidly iterating and adding
+20:19 features 'cause Claude can just update
+your database schema automatically.
+20:23 For web apps, I recommend using the
+playwright MCP or the puppeteer MCP.
+20:27 These help Claude Code see your web app in
+action, which is super useful for things
+20:32 like automatically testing user flows.
+20:34 Other MCPs from my recommended tech stack
+include the Vercel MCP for deployment,
+20:39 the Mixpanel MCP for analytics and
+the linear MCP for project management.
+20:44 To connect MCPs, just follow the
+commands in the docs for the MCP server
+20:48 of your choice, there's usually a one
+line install to add it to Claude Code.
+20:53 Step seven, and the final step
+in the setup checklist is setting
+20:57 up slash commands and subagents.
+20:59 Now, both slash commands and subagents
+are automated ways for Claude to perform
+21:04 specific tasks and workflows, but they
+work differently and understanding
+21:08 the difference is really important.
+21:10 A slash command is a shortcut
+to a prompt or a task.
+21:13 It uses the same context window
+as your main conversation.
+21:17 In contrast, a subagent is a
+specialized agent for a specific task.
+21:22 It uses a fork of your context window,
+which means that it's unrelated to your
+21:26 main conversation and other subagents.
+21:29 Now, this means that subagents don't
+know about each other this makes them
+21:32 perfect for parallel work and specialized
+tasks that need focused context.
+21:37 You can use the built-in slash commands
+and subagents that come with Claude Code.
+21:41 You can use third party ones
+from plugins, or you can even
+21:45 create your own custom ones.
+21:47 Let's double click into subagents.
+21:49 For subagents, I like to use the
+built-in subagents for planning and
+21:53 code base search in Claude Code.
+21:54 They work great out of the box and you
+can invoke them manually or let Claude
+21:58 use them automatically when it sees fit.
+22:01 You can also create custom subagent, and
+if you're looking for ideas, here are
+22:05 three that I recommend for new projects.
+22:07 First up is a change log subagent to
+create and update change log entries
+22:12 After we've finished a feature.
+22:13 Then there's a front end testing subagent,
+a specialized agent that focuses just
+22:18 on testing your front end and can
+run playwright tests automatically.
+22:22 And third is a retro agent that
+reflects on what can be improved
+22:27 after a development session.
+22:28 And then it updates things like
+your Claude.md, your prompts, your
+22:32 slash commands with its learnings.
+22:34 The retro agent can become the
+foundation for a continuous
+22:37 improvement system for your project.
+22:40 Now for slash commands, from the
+anthropic plugin, there are some great
+22:44 ones like the slash commit and slash
+PR commit for committing changes.
+22:48 I like to use the feature dev
+slash command all the time.
+22:51 And of course, you can also create
+your own custom slash commands.
+22:55 For example, I have a slash command that
+updates all my project docs from the
+22:59 automatic documentation in step five of
+the checklist based on recent changes.
+23:04 And then I have another one that
+creates GitHub issues based on an input
+23:08 project spec or a prompt that I give it.
+23:11 Now I'm sure you can see how custom slash
+commands and subagents close the loop on
+23:15 some of the other setup steps like the
+automated documentation and plugins and
+23:19 MCPs from earlier in the setup Checklist.
+23:22 So that's the seven step setup checklist.
+23:25 But before we move on to phase three,
+I wanna share two bonus advanced setup
+23:29 tips that'll save you a ton of time.
+23:31 These are not strictly required,
+but I find them useful for
+23:34 advanced Claude Code users.
+23:36 Bonus step number one is to
+pre-configure permissions and settings.
+23:40 This allows you to pre-approve or pre
+block certain commands so that Claude
+23:44 Code doesn't have to ask you, or you don't
+have to prevent Claude from running them.
+23:49 For example, if you want Claude Code to
+always be allowed to run git commands
+23:53 or edit files without asking you, you
+can specify that in your settings.
+23:57 Pre configuring your permissions helps
+avoid the frustrating problem of thinking.
+24:01 Claude is working on something, going to
+get a cup of coffee and then coming back
+24:05 to find that Claude was actually stuck
+waiting for permission the entire time.
+24:10 Bonus step number two is to set
+up hooks for advanced automation.
+24:14 Hooks, let you insert determinism
+into your Claude Code workflow.
+24:18 There are basically scripts that can run
+automatically at certain points in the
+24:22 Claude Code lifecycle, like before a tool
+call or after Claude finishes a task.
+24:27 For example, I use a stop hook that
+checks if test pass when Claude finishes
+24:32 and if they don't, the hook tells
+Claude to keep going and to fix them.
+24:36 Another example of a hook that I use
+is a notification hook that pings me
+24:40 on Slack when Claude needs permission
+to do something so I don't have
+24:43 to be at my terminal all the time.
+24:45 Hooks are pretty advanced and they can
+seem intimidating, but I highly recommend
+24:49 you try them out and think about even
+just one hook that you can use in your
+24:53 workflow after watching this video.
+24:55 This brings us to the
+end of the setup phase.
+24:58 At this point, Claude has everything it
+needs to start building your project.
+25:02 Next up is the final phase of
+the PSB process, the part that
+25:06 you've all been waiting for.
+25:07 The build phase where we can finally
+start writing code with Claude.
+25:11 Alright.
+25:12 Phase three is the build phase.
+25:14 This is where we'll start building
+our new project with Claude.
+25:17 And just as with the plan and the setup
+phases, having the right workflows in
+25:21 the build phase makes all the difference
+between frustration and smooth sailing.
+25:26 So in this section, we're not only
+gonna cover building your MVP with
+25:29 Claude, but we'll also cover three
+workflows that I recommend in general
+25:33 for building new features with Claude
+Code, plus the most important tips
+25:37 that I've learned to keep your building
+process productive and efficient.
+25:42 Let's get into it.
+25:43 First up is asking
+Claude to build your MVP.
+25:46 At this point you have your project
+Spec Doc and your milestones
+25:49 for your project documented.
+25:51 The next step is to have Claude
+Build Milestone one of your
+25:54 project based on your project spec.
+25:57 A pro tip here is to ask Claude
+to use parallel subagents where
+26:00 possible during the implementation.
+26:02 This can speed up the development
+process significantly because
+26:05 Claude can work on multiple parts
+of your project at the same time.
+26:09 And as always, I recommend using
+plan mode first so that Claude can
+26:13 translate your project spec into its own
+implementation plan for better results.
+26:18 Now that you've built your MVP, let's
+talk about how to build the rest
+26:21 of the milestones in your project.
+26:23 I am gonna share the three
+workflows that I use the most
+26:26 when developing with Claude Code.
+26:28 They are the general workflow,
+the issue-based workflow,
+26:31 and the multi-agent workflow.
+26:34 First up is a general workflow.
+26:36 This is what I recommend using when
+developing a single feature end to end.
+26:40 The general workflow has four
+parts, research, plan, implement.
+26:45 And lastly, test.
+26:47 Research can involve asking Claude
+to create a research report or
+26:50 even using external research you've
+done in ChatGPT deep research.
+26:55 Now the research step is optional, but
+I found it helpful for bigger features
+26:59 where Claude needs to make tech stack
+decisions or look up specific APIs
+27:03 that I'm using for the first time.
+27:05 The plan step in the general workflow
+is perhaps the most important part.
+27:10 In fact, the most common mistake
+I see people make with Claude Code
+27:13 is not using plan mode enough.
+27:15 When Claude is in plan mode, it'll
+think through the task, break it down
+27:19 into steps, and ask you clarifying
+questions before it starts building.
+27:23 This leads to way better results.
+27:25 And during implementation and testing
+claude will automatically use all the
+27:29 plugins, sub-agents, MCPs and slash
+commands that we set up in phase
+27:33 two to help with implementation.
+27:36 One example that I like to use
+explicitly is the feature dev slash
+27:40 command from the anthropic plugin.
+27:42 You're probably realizing that this
+is where all the configuration that we
+27:45 did in the setup phase comes in handy
+as it helps us speed up development.
+27:49 Next up is workflow two, which
+is issue-based development.
+27:53 In this workflow, GitHub
+issues become your source of
+27:56 truth for features and tasks.
+27:59 Rather than only prompting Claude
+directly, you can create GitHub issues
+28:03 describing bugs, improvements, and new
+features, and ask Claude to work on them.
+28:08 This is part of the reason why we
+set up a GitHub repo for our project
+28:11 in the setup phase of this video.
+28:13 It helps keep the project tidy because
+GitHub is your source of truth versus
+28:17 having several to-do files or feature
+MD docs lying around in your repo.
+28:22 For issue-based development, you need
+to be disciplined about splitting
+28:25 your work into GitHub issues.
+28:27 Now the good news is that you can
+ask Claude code to help take your
+28:31 project spec and your milestones
+and turn them into GitHub issues.
+28:35 And of course, you can also
+create issues manually on the fly.
+28:38 If you like the issue-based
+workflow, you can also automate it
+28:41 with a slash command or sub-agent.
+28:43 For example, I have a slash command
+that takes in a file or folder and
+28:47 outputs a list of GitHub issues
+in my repo using the GitHub CLI.
+28:51 Another benefit of the issue-based
+development workflow is that it makes
+28:54 it easier to do work in parallel.
+28:56 We will cover multi-agent workflows
+in just a moment in workflow three.
+29:00 But conceptually, using GitHub
+issues means you can ask Claude
+29:04 to tackle multiple issues using
+sub-agents in the same session.
+29:07 This is useful for fixing a bunch
+of bugs quickly in parallel.
+29:11 You can also use multiple instances
+of Claude Code to tackle issues in
+29:15 parallel, this is useful for adding
+multiple bigger features at the same time.
+29:20 Workflow three is about
+multi-agent development.
+29:23 It's the most advanced development
+workflow and it enables you to work
+29:27 on multiple features at the same time.
+29:29 The multi-agent workflow is also
+known as multi-clauding in Claude Code
+29:34 because you run multiple Claude Code
+instances at the same time with each
+29:38 session working on a different feature.
+29:40 Now you might be wondering,
+how do they stay coordinated?
+29:43 Won't the changes
+conflict with each other?
+29:45 This is where git work trees come in.
+29:48 Git work trees let you have multiple
+working copies of your repo in different
+29:52 directories each on a different branch.
+29:55 Git work trees means that each Claude
+Code session can work in its own
+29:59 work tree with isolated files while
+still sharing the same git history.
+30:04 And when your multiple instances
+are done working, you can ask Claude
+30:07 to merge the work trees together.
+30:09 Either directly into the main
+or into a feature branch so that
+30:13 you can test and review further.
+30:15 This is what I usually do.
+30:16 I've used the multi-agent workflow
+to work on three features at once,
+30:20 and it's incredibly powerful.
+30:22 But it does require some knowledge
+about how to set it up and manage it.
+30:26 So if you'd like a deep dive into
+multi-agent workflows and git work trees,
+30:31 let me know in the comments and I'll be
+sure to make one if there's enough demand.
+30:34 This brings us to the end of the
+three recommended workflows that I
+30:38 use when developing with Claude Code.
+30:40 And before we wrap up, I wanna share
+four helpful tips that I use for staying
+30:44 productive during the build phase.
+30:46 Tip number one is to use the
+best models as much as possible.
+30:50 This means using the newly released
+Opus 4.5, or at least using sonnet as
+30:55 much as you can Especially for important
+tasks where quality really matters.
+30:60 Now since Opus 4.5 was released, I default
+to Opus for planning and complex tasks.
+31:06 I then use Sonnet as an implementation
+workhorse and only use Haiku for simple,
+31:10 straightforward tasks and bug fixes.
+31:13 The reason is simple.
+31:15 The time that I save by using a better
+model that makes fewer mistakes is more
+31:19 valuable than the money saved from using
+a cheaper model that makes more mistakes
+31:23 that I have to spend more time fixing.
+31:25 Plus, and this could just be me.
+31:27 I like to live on the edge and see the
+best of what these models are capable of.
+31:31 So that's why I like to use
+Opus as much as possible.
+31:34 Tip number two is to periodically
+update and tune your Claude.md file.
+31:39 Now, we might have set up our Claude.md
+file in the setup section, but as part of
+31:43 this build phase, I recommend periodically
+updating it as you add new features or
+31:48 reach new milestones with your project.
+31:51 A pro tip here is that you can create a
+custom slash command to have Claude first
+31:55 update your Claudemd file and then create
+a git commit as part of your git workflow.
+32:01 This ensures that your documentation
+and code can stay in sync.
+32:06 Tip number three is to
+practice regression prevention.
+32:09 When you see Claude make a mistake
+don't just fix it and move on.
+32:13 Instead, just type, hashtag or
+pound on your keyboard to give
+32:17 Claude an instruction that it will
+then automatically incorporate
+32:21 into the relevant claude.md file.
+32:23 This allows you to quickly
+update your Claude.md file on
+32:26 the fly without manual edits.
+32:28 And finally, tip number four is
+don't be afraid to throw away work.
+32:33 Remember, code is cheap, so if
+something isn't working, especially in
+32:37 the prototype stages, don't be afraid
+to undo it or throw away a feature
+32:41 completely and start again as this can
+often help you get to a solution that
+32:45 you're actually happy with faster.
+32:47 Claude Codes.
+32:48 Checkpoints and rewind
+are very useful here.
+32:52 It gives you session level recovery
+in addition to the project level
+32:55 version control that you get with git.
+32:57 And that brings us to the end of
+the tips to keep you productive when
+33:01 building with Claude Code and to the
+end of phase three, the build phase.
+33:05 Now if you wanna apply the system from
+this video and even get hands on help
+33:09 directly from me, I'm excited to announce
+my new course on Maven with cohorts
+33:13 for January and February now open.
+33:16 And as a special thanks, I'm giving
+everyone who's watching this on YouTube,
+33:20 a hundred dollars off the course by
+using the code YouTube at checkout, or
+33:24 using the link in the video description.
+33:26 The AI native builder course is
+intense, but I promise it's worth it if
+33:30 you're serious about building With ai.
+33:33 you'll build projects from scratch
+using tools like Claude Code and
+33:36 Replit, learn the fundamentals of
+building with AI that apply to any AI
+33:40 coding tool and get personalized help
+when you're stuck with over 10 hours
+33:44 of q and a and office hours from me.
+33:47 So check out the link in the video
+description and remember to use Code
+33:50 YouTube for a hundred dollars off.
+33:52 And I have a limited number of
+scholarships available if you're
+33:55 super motivated, but cost is a hurdle.
+33:58 You can find both the YouTube
+discounted link and the scholarship
+34:01 application in the video description.
+34:03 Now, if you learn something from
+this video, don't forget to like and
+34:06 subscribe for more AI coding videos and
+leave a comment with what you learned
+34:10 or with any questions that you have.
+34:12 I read every single one of them.
+34:14 Catch you in the next one.
